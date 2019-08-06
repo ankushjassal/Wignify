@@ -4,10 +4,6 @@ body{margin:0; padding: 0;}
 .modal-header{border-bottom: none;}
 .displaying{display: none;}
 @media only screen and (max-width: 468px) {
-    .displaying {
-        display: block;
-    }
-	#openForm{
-		display: none;
-	}
+    .displaying {display: block;}
+	#openForm{display: none;}
 }
