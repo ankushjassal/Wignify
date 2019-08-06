@@ -6,7 +6,6 @@ $(document).ready(function(){
 		localStorage.setItem('Name', FullName);
 		localStorage.setItem('Email', EmailId);
 		localStorage.setItem('AgreeTerms', Agree);
-		
 	});
 $(window).resize(function(){
 	setTimeout(function(){
