@@ -8,12 +8,6 @@ $(document).ready(function(){
 		localStorage.setItem('AgreeTerms', Agree);
 		
 	});
-	$("#ReadCookie").click(function(){
-		alert(localStorage.getItem("Name"));
-		alert(localStorage.getItem("Email"));
-		alert(localStorage.getItem("AgreeTerms"));
-	});
-});
 $(window).resize(function(){
 	setTimeout(function(){
 	if ($(window).width() <= 468){	
